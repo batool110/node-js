@@ -1,0 +1,19 @@
+<% include partials/header.ejs %>
+
+    <% if(gameList == "abc"){ %>
+        <p>Game list is abc.<p>
+    <% } %>
+<div class="row">
+     <% for( var i=0 ; i<game.length; i++ ){ %>
+    <div class="col">
+        <div style = "border-style : solid ; padding : 5px ; margin : 20px ; max-width : 200px" >
+        <h4> Game Creator: <%= game[i].creator %> </h4>
+        <h4> Game Title: <%= game[i].title %> </h4>
+        </div>
+    </div>
+    <% } %>
+</div>
+
+
+   
+<% include partials/footer.ejs %>

@@ -1,0 +1,13 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: azure;
+  }
+  
+  a {
+    color: #00B7FF;
+  }
+
+  input{
+    color: black;
+  }
